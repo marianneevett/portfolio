@@ -34,6 +34,12 @@ I treat my portfolio as a product: its content, interaction patterns, performanc
 
 **Intentional motion.** Animation should help reveal, connect, or explain content—and not become a prerequisite for navigation.
 
+## Applied design decision
+
+[Selecting a page section without activating it](docs/editor-selection-and-preview.md) follows one concrete decision in the portfolio's visual editor: separating section selection from normal links, forms, and keyboard interactions. It connects the tradeoff to implemented behavior, recorded verification, and the limits of that foundation.
+
+The reusable documentation approach is in [Product Design Practice](https://github.com/marianneevett/product-design-practice).
+
 ## Technical overview
 
 The private production application uses React, TypeScript, TanStack Start/Router, Vite, Tailwind CSS, and a Supabase-backed content layer. It also includes reusable presentation components and tests.
