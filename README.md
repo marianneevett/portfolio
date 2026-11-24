@@ -14,7 +14,7 @@ The live site is organized to make both the work and the reasoning accessible:
 
 - **Selected work** — An overview of projects and product experiences, with pathways into deeper stories where available.
 - **Case studies** — Context, problem framing, constraints, tradeoffs, design decisions, and outcomes rather than screens without explanation.
-- **Company stories** — The broader context of a role, how a product evolved, and selected work within it.
+- **Company stories** — The homepage introduces my work at Weedmaps, SpotOn, and M1, with a link to each company’s story.
 - **Lab** — Experiments, prototypes, and explorations of ideas still taking shape.
 - **About** — The experience, principles, and tools that inform my practice.
 
