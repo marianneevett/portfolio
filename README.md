@@ -2,7 +2,7 @@
 
 **Designing through human behavior, complex systems, and business constraints.**
 
-[Explore the portfolio](https://mariannematilda.com) · [Selected work](https://mariannematilda.com/work) · [About](https://mariannematilda.com/about)
+[Explore the portfolio](https://marianneevett.com) · [Selected work](https://marianneevett.com/work) · [About](https://marianneevett.com/about)
 
 This repository is a public-facing companion to my product design portfolio. It documents the thinking and selected implementation patterns behind the site—not a second deployment or a copy of its production source code.
 
@@ -50,10 +50,10 @@ For a concise explanation of the system and the reasons for this separation, see
 
 ## What this repository is—and isn't
 
-This is a curated record of the design and technical decisions behind [mariannematilda.com](https://mariannematilda.com). It is **not** a template, the production codebase, or a runnable mirror of the live website.
+This is a curated record of the design and technical decisions behind [marianneevett.com](https://marianneevett.com). It is **not** a template, the production codebase, or a runnable mirror of the live website.
 
 The documentation can evolve alongside the portfolio without duplicating production infrastructure.
 
 ---
 
-**Marianne Evett** · Product Design · [mariannematilda.com](https://mariannematilda.com)
+**Marianne Evett** · Product Design · [marianneevett.com](https://marianneevett.com)
