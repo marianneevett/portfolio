@@ -50,7 +50,9 @@ For a concise explanation of the system and the reasons for this separation, see
 
 ## What this repository is—and isn't
 
-This is a curated record of the design and technical decisions behind [marianneevett.com](https://marianneevett.com). It is **not** a template, the production codebase, or a runnable mirror of the live website.
+This is a curated record of the design and technical decisions behind [marianneevett.com](https://marianneevett.com). 
+
+It is **not** a template, the production codebase, or a runnable mirror of the live website.
 
 The documentation can evolve alongside the portfolio without duplicating production infrastructure.
 
