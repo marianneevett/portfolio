@@ -75,27 +75,42 @@ For a concise explanation of the system and the reasons for this separation, see
 
 ### 📁 Project Structure
 
-The production application is organized around reusable components, modular content, and separation of concerns.
-
-Below is a simplified view of the private application architecture.
+The production application is organized around reusable components, file-based routing, modular content, and separation of concerns.
 
 ```text
 portfolio/
 ├── src/
-│   ├── assets/          # Visual assets and media
-│   ├── components/      # Reusable UI and presentation components
-│   ├── hooks/           # Shared React hooks and interaction behaviors
-│   ├── integrations/    # External service integrations
-│   ├── lab/             # Interactive experiments and prototypes
-│   ├── lib/             # Shared utilities and application logic
-│   ├── routes/          # Public pages and administrative experiences
-│   ├── router.tsx       # Application routing
-│   ├── server.ts        # Server-side application entry
-│   ├── start.ts         # Application initialization
-│   └── styles.css       # Global styles and motion
-├── docs/                # Architecture and design documentation
-└── README.md            # Project overview
+│   ├── assets/                        # Visual assets and media
+│   ├── components/                    # Reusable UI and presentation components
+│   ├── hooks/                         # Shared hooks and interaction behaviors
+│   ├── integrations/                  # External service integrations
+│   ├── lab/                           # Interactive experiments and prototypes
+│   ├── lib/                           # Shared utilities and application logic
+│   ├── routes/                        # File-based application routing
+│   │   ├── __root.tsx                 # Global application layout
+│   │   ├── index.tsx                  # Homepage
+│   │   ├── about.tsx                  # About
+│   │   ├── contact.tsx                # Contact
+│   │   ├── work.index.tsx             # Selected work
+│   │   ├── work.$slug.tsx             # Individual case studies
+│   │   ├── work.experience.$slug.tsx  # Company retrospectives
+│   │   ├── lab.index.tsx              # Interactive Lab
+│   │   ├── lab.$slug.tsx              # Individual experiments
+│   │   └── ...                       # Additional application routes
+│   ├── router.tsx                     # Router configuration
+│   ├── routeTree.gen.ts               # Generated route tree
+│   ├── server.ts                      # Server-side application entry
+│   ├── start.ts                       # Application initialization
+│   └── styles.css                     # Global styles and motion
+├── docs/                              # Architecture and design documentation
+└── README.md                          # Project overview
 ```
+
+The application uses TanStack Router's file-based routing to support dynamic case studies, company retrospectives, interactive experiments, and content management.
+
+Production source code remains private. This simplified structure illustrates the application architecture without exposing internal implementation details.
+
+[Read more about the portfolio architecture →](docs/architecture.md)
 
 The architecture supports an evolving portfolio through shared design patterns, reusable interaction behaviors, and independently managed content.
 
